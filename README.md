@@ -21,4 +21,4 @@ Check version:
 aws --versionConfigure CLI:bashaws configure
 # Region: ap-south-1
 # Output: jsonVerify Access:bashaws sts get-caller-identityOutput shows User ID and Account ID, which confirms the Dev Sandbox access is working.
-<img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/e83b20e0-43b1-46c7-a431-65044833ff55" />
+
