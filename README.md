@@ -21,5 +21,3 @@ Check version:
 aws --versionConfigure CLI:bashaws configure
 # Region: ap-south-1
 # Output: jsonVerify Access:bashaws sts get-caller-identityOutput shows User ID and Account ID, which confirms the Dev Sandbox access is working.
-5. Tagging and Naming ConventionsTypeRuleExampleNamingenv-name-service-numberdev-nisha-ec2-01Tag: Environmentdev / proddevTag: OwnerOwner namenishaTag: ProjectProject namecost-reportRule: Every instance must have tags. Without tags, we cannot track who owns the resource and what the cost is for.
-6. Cost Report ScriptFile: cost.shPurpose: This script lists only running instances with Environment=dev tag.Run: ./cost.sh
